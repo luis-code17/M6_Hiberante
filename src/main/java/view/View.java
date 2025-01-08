@@ -32,11 +32,11 @@ public class View {
         do{
             if (sc.hasNextInt()) {
                 choice = sc.nextInt();
-                if (choice < 1 || choice > 6) {
-                    System.out.println("Invalid choice. Please enter a number between 1 and 5.");
+                if (choice < 1 || choice > 7) {
+                    System.out.println("Invalid choice. Please enter a number between 1 and 7.");
                 }
             } else {
-                System.out.println("Invalid choice. Please enter a number between 1 and 5.");
+                System.out.println("Invalid choice. Please enter a number between 1 and 7.");
                 sc.next();
             }
         }while (choice < 1 || choice > 7);
